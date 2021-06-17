@@ -6,10 +6,11 @@ const Navbar = () => {
     <nav id="mynav" className="navbar navbar-expand-sm navbar-light bg-light py-2">
       <div className="container">
         <a href="index.html" className="navbar-brand">
-          <img src={logo} className="logo" alt="" />
-          {/* <img src="img/Yook3.png" width="40" height="40" alt=""> */}
+          {/* <div className="d-flex flex-row py-2"> */}
+          <img src={logo} className="logo align-self-center" alt="" />
+          {/* <h3 className="my-0 align-self-center">Yookmon</h3> */}
           <h3 className="d-inline align-self-center">Yookmon</h3>
-
+          {/* </div> */}
         </a>
         <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span className="navbar-toggler-icon"></span>
@@ -35,7 +36,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li>
               <a href="#" className="nav-item">
-                <button type="button" className="btn btn-sm btn-primary navbutton">Sign Up</button>
+                <button type="button" className="signbutton btn btn-sm btn-primary navbutton rounded-pill">Sign Up</button>
               </a>
             </li>
             <li className="nav-item dropdown">
